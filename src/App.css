@@ -1,0 +1,59 @@
+ h1{
+    color: gray;
+}
+
+.main-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-page input{
+    width: 50%;
+    height: 15vh;
+    background-color: rgb(177, 169, 169);
+}
+
+.main-page .button{
+    margin-top: 20px;
+    width: 50%;
+    background-color: black;
+    height: 15vh;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.next-page{
+     position: absolute;
+     left: 100px;
+     top: 100px;
+     width: 100%;
+     height: 100vh;
+}
+
+.next-page h2 {
+    color: black;
+    font-size: 70px;
+}
+
+.next-page p{
+    color: gray;
+    font-size: 40px;
+    
+}
+
+.main-page input{
+    font-size: 1.7rem;
+    color: #fff;
+}
